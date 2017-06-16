@@ -8,6 +8,11 @@ img{
     height: auto;
 }
 
+img[src$=".svg"] {
+    width: 3.5rem;
+    height: auto;
+}
+
 *{
     box-sizing: border-box;
 }
